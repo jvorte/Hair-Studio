@@ -5,14 +5,14 @@ import { Link } from "react-scroll"; // For smooth scrolling
 const Home = () => {
   return (
     // Main container - full screen with dark background
-    <div name="home" className="h-screen w-full bg-cover bg-center bg-no-repeat bg-[url(assets/7.jpg)] sm:bg-cover md:bg-cover lg:bg-cover xl:bg-cover">
+    <div name="home" className="h-screen w-full bg-cover bg-center bg-no-repeat bg-[url(assets/6.jpg)] sm:bg-cover md:bg-cover lg:bg-cover xl:bg-cover">
 
       {/* Content wrapper - centers content and handles responsive layout */}
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4">
     
         <div className="flex flex-col justify-center h-full">
         
-          <h2 className="text-4xl sm:text-7xl font-bold text-yellow-50">
+          <h2 className="text-4xl sm:text-7xl font-bold text-yellow-100">
             Your <span className="text-rose-200">Hair</span>, Our Passion
           </h2>
           {/* Brief introduction */}
