@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+
+*{
+    font-family: "Mulish", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.rightImg{
+max-width: 1150px;
+}
+
+.hidden{
+    font-family: poppins;
+}
+
