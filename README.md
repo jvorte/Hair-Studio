@@ -12,7 +12,7 @@ Hair Studio is a simple, single-page website built with React. This website is d
 - Interactive sections for services and contact.
 - Simple and user-friendly interface.
 
-![Hair Studio Website](./assets/imageSite.JPG)
+![Hair Studio Website](../assets/imageSite.JPG)
 
 
 
