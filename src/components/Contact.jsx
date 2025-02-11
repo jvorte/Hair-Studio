@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full min-h-screen flex flex-col justify-center items-center z-10 pt-16 px-4"
+      className="w-full min-h-screen flex flex-col justify-center items-center z-10 pt-16 px-4 z-10 pt-30"
     >
       {/* Image Section */}
       <div className="w-full max-w-[200px]">
@@ -16,7 +16,7 @@ const Contact = () => {
       </div>
 
       {/* Form Section */}
-      <div className="w-full max-w-[500px] text-center mt-8">
+      <div className="w-full max-w-[500px] text-center ">
         <p className="text-4xl font-bold inline border-b-4 border-rose-300">
           Contact
         </p>
