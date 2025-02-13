@@ -5,7 +5,7 @@ import { Link } from "react-scroll"; // For smooth scrolling
 const Home = () => {
   return (
     // Main container - full screen with dark background
-    <div name="home" className="h-screen w-full bg-cover bg-center bg-no-repeat bg-[url(assets/19.jpg)] sm:bg-cover md:bg-cover lg:bg-cover xl:bg-cover">
+    <div name="home" className="h-screen w-full bg-cover bg-center bg-no-repeat bg-[url(assets/20.jpg)] sm:bg-cover md:bg-cover lg:bg-cover xl:bg-cover">
 
       {/* Content wrapper - centers content and handles responsive layout */}
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4">
