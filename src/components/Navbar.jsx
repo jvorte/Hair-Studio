@@ -12,10 +12,19 @@ const Navbar = () => {
 
   return (
     // Main navbar container - fixed at top, full width
-    <div className='fixed w-full h-10 flex justify-between items-center p-10 text-lg bg-gray-100 text-black z-20 opacity-50'>
-      {/* Your logo or brand name */}
+    <div className='max-w-6xl fixed mt-15 left-1/2 gap-70 transform -translate-x-1/2 -translate-y-1/2 w-full h-10 flex justify-center items-center p-10 text-l rounded-xl bg-gray-100 text-black z-20 '>
+
+ 
       <div>
-        <h1 className='font-thin text-2xl italic font-serif'>Hair Studio</h1>
+     
+        <div className="w-full pt-15 max-w-[150px]">
+        <img
+          src="17.png"
+          alt="Contact"
+          className="w-full h-auto rounded-lg"
+        />
+      </div>
+          {/* <h1 className='font-thin text-2xl italic font-serif'>Hair Studio</h1> */}
       </div>
 
       {/* Desktop Menu - hidden on mobile, flex on medium screens and up */}
@@ -49,7 +58,7 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Menu - full screen overlay */}
-      <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen  text-gray-200  bg-rose-900 flex flex-col justify-center items-center'}>
+      <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen  text-gray-100  bg-[#191c18] flex flex-col justify-center items-center'}>
         <li className='py-6 text-4xl'>
           <Link onClick={handleClick} to='home' smooth={true} duration={500}>
             Home

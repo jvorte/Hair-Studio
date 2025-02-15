@@ -4,19 +4,15 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full min-h-screen flex flex-col justify-center items-center px-4 z-10 pt-40"
+      className="w-full min-h-screen flex flex-col justify-center items-center mt-40 "
     >
       {/* Image Section */}
       <div className="w-full max-w-[200px]">
-        <img
-          src="17.png"
-          alt="Contact"
-          className="w-full h-auto rounded-lg"
-        />
+    
       </div>
 
       {/* Form Section */}
-      <div className="w-full max-w-[500px] text-center ">
+      <div className="w-full max-w-[500px] text-center pt-10 ">
         <p className="text-4xl font-bold inline border-b-4 border-rose-300">
           Contact
         </p>

@@ -3,7 +3,7 @@ import React from "react";
 const Works = () => {
   return (
     // Main container with responsive height
-    <div name="work" className="w-full md:h-screen bg-[] relative z-10 pt-40">
+    <div name="work" className="w-full md:h-screen bg-[] relative z-10 pt-50">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         {/* Section header */}
         <div className="pb-8 w-full flex justify-center items-center flex-col my-4">
