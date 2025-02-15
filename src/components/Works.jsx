@@ -24,7 +24,7 @@ const Works = () => {
                 A modern and stylish haircut for men.
               </p>
               <img
-                src="src/assets/10.jpg"
+                src="10.jpg"
                 alt="Project Image"
                 className="w-full h-full object-cover"
               />
@@ -38,7 +38,7 @@ const Works = () => {
               </span>
               <p className="text-center ">A modern and stylish haircut for men.</p>
               <img
-                src="src/assets/11.jpg"
+                src="11.jpg"
                 alt="Project Image"
                 className="w-full h-full object-cover"
               />
@@ -52,7 +52,7 @@ const Works = () => {
               </span>
               <p className="text-center ">A modern and stylish haircut for men.</p>
               <img
-                src="src/assets/14.jpg"
+                src="14.jpg"
                 alt="Project Image"
                 className="w-full h-full object-cover"
               />
@@ -66,7 +66,7 @@ const Works = () => {
               </span>
               <p className="text-center ">A modern and stylish haircut for women.</p>
               <img
-                src="src/assets/2.jpg"
+                src="2.jpg"
                 alt="Project Image"
                 className="w-full h-full object-cover"
               />
@@ -80,7 +80,7 @@ const Works = () => {
               </span>
               <p className="text-center ">A modern and stylish haircut for women.</p>
               <img
-                src="src/assets/12.jpg"
+                src="12.jpg"
                 alt="Project Image"
                 className="w-full h-full object-cover"
               />
@@ -94,7 +94,7 @@ const Works = () => {
               </span>
               <p className="text-center ">A modern and stylish haircut for women.</p>
               <img
-                src="src/assets/13.jpg"
+                src="13.jpg"
                 alt="Project Image"
                 className="w-full h-full object-cover"
               />

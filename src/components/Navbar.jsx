@@ -12,14 +12,14 @@ const Navbar = () => {
 
   return (
     // Main navbar container - fixed at top, full width
-    <div className='fixed w-full h-10 flex justify-between items-center px-4 text-lg bg-gray-100 text-gray-900 z-20 opacity-50'>
+    <div className='fixed w-full h-10 flex justify-between items-center p-10 text-lg bg-gray-100 text-black z-20 opacity-50'>
       {/* Your logo or brand name */}
       <div>
         <h1 className='font-thin text-2xl italic font-serif'>Hair Studio</h1>
       </div>
 
       {/* Desktop Menu - hidden on mobile, flex on medium screens and up */}
-      <ul className='hidden md:flex gap-x-8'>
+      <ul className='hidden md:flex gap-x-8 p-20'>
         <li>
           <Link to='home' smooth={true} duration={500}>
             Home

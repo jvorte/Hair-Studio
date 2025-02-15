@@ -4,12 +4,12 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full min-h-screen flex flex-col justify-center items-center z-10 pt-16 px-4 z-10 pt-30"
+      className="w-full min-h-screen flex flex-col justify-center items-center px-4 z-10 pt-40"
     >
       {/* Image Section */}
       <div className="w-full max-w-[200px]">
         <img
-          src="src/assets/17.png"
+          src="17.png"
           alt="Contact"
           className="w-full h-auto rounded-lg"
         />

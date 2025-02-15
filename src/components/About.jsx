@@ -34,10 +34,10 @@ const About = () => {
             <div className="mt-4">
         
             <div className="grid grid-cols-2 gap-4 mt-2">
-              <img src="src\assets\4.jpg" alt="Project 1" className="rounded-md shadow-md" />
-              <img src="src\assets\7.jpg" alt="Project 2" className="rounded-md shadow-md" />
-              <img src="src\assets\3.jpg" alt="Project 3" className="rounded-md shadow-md" />
-              <img src="src\assets\5.jpg" alt="Project 4" className="rounded-md shadow-md" />
+              <img src="4.jpg" alt="Project 1" className="rounded-md shadow-md" />
+              <img src="7.jpg" alt="Project 2" className="rounded-md shadow-md" />
+              <img src="3.jpg" alt="Project 3" className="rounded-md shadow-md" />
+              <img src="5.jpg" alt="Project 4" className="rounded-md shadow-md" />
             </div>
             </div>
             </div>
